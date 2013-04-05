@@ -5,7 +5,7 @@ def f(n):
 		return 0
 	if n == 1:
 		return 1
-
+	
 	return f(n-1) + f(n-2)
 	
 """
@@ -23,5 +23,5 @@ f(2) = f(1) + 1
 f(1) = f(0) + 1
 f(0) = 0
 
-is there a way to print out results each time, instead of just final result? maybe using stack?
+is there a way to print out results each time, instead of just final result? maybe using stack? --can't, would need a 2nd recursive function just for printing that would call this function to get the nth Fibonacci number
 """
